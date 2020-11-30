@@ -2,7 +2,7 @@ import urllib2, os, json, sys, random
 from bs4 import BeautifulSoup
 try:
     from instagram_private_api import Client, ClientCompatPatch
-except ModuleImportError:
+except:
     os.system('pip2 install git+https://git@github.com/ping/instagram_private_api.git@1.6.0')
 from time import sleep
 
