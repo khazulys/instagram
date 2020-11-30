@@ -80,5 +80,5 @@ def instagram(func):
 @instagram
 def crack():	return
 if __name__=='__main__':
-	# tamplate
+
     get_info();userpass();crack()
